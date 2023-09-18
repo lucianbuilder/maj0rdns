@@ -11,5 +11,5 @@ EXPOSE 443
 
 #public ip of the container
 
-CMD echo "Run sniproxy and dnsmasq..." && \
+CMD echo "Run sniproxy ..." && \
     sniproxy -c /etc/sniproxy.conf -f
